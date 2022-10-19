@@ -37,8 +37,17 @@ public class GPSUtils {
 	public static double[] getLatitudes(GPSPoint[] gpspoints) {
 
 		// TODO - START
+//		int i = 0;
+//		for(GPSPoint gpspoint :gpspoints) {
+//			latitudes[i] = gpspoint.getLatitude();
+		  double[] latitudes = new double[gpspoints.length];
+		for(int i = 0; i<gpspoints.length; i++) {
+		latitudes[i] =	gpspoints[i].getLatitude();
+		}
 		
-		throw new UnsupportedOperationException(TODO.method());
+		return latitudes;
+		
+		//throw new UnsupportedOperationException(TODO.method());
 		
 		// TODO - SLUTT
 	}

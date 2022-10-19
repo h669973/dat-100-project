@@ -10,6 +10,11 @@ public class GPSData {
 
 	public GPSData(int n) {
 
+		gpspoints =new GPSPoint[n];
+		antall = 0;
+		
+			
+		
 		// TODO - START
 		
 		throw new UnsupportedOperationException(TODO.construtor("GPSData"));
@@ -54,7 +59,7 @@ public class GPSData {
 
 		// TODO - SLUTT
 		
-		// System.out.println("====== Konvertert GPS Data - SLUTT ======");
+		 //System.out.println("====== Konvertert GPS Data - SLUTT ======");
 
 	}
 }
